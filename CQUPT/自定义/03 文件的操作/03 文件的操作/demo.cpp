@@ -17,6 +17,10 @@ int main()
 	char ch;
 	ch = fgetc(fp);
 	putchar(ch);
+	ch = fgetc(fp);
+	putchar(ch);
+	ch = fgetc(fp);
+	putchar(ch);
 	fclose(fp);
 	return 0;
 }
